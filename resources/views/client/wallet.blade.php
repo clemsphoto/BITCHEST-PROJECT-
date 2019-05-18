@@ -7,7 +7,7 @@
 
     @include('layouts.errors')
 
-    <h2 class="sub-header">Mon portefeuille <span class="solde">Mon solde: <strong>{{$wallet->solde_euros}} €</strong></span></h2>
+    <h2 class="sub-header">Mon portefeuille <span class="solde">Mon solde: <strong>€</strong></span></h2>
     <div class="table-responsive">
 
         <table class="table table-striped">
@@ -16,7 +16,7 @@
                 
                 <th>Nom de la crypto monnaie</th>
                 <th>Quantité</th>
-                <th>Valeur initiale de la monnaie</th>
+                <th>Valeur initiale de la crypto monnaie</th>
                 <th>Valeur du lot</th>
 
                 <th>Action</th>

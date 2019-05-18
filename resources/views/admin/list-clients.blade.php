@@ -23,8 +23,8 @@
         <th scope="col">{{$client->role}}</th>
         <th scope="col">
             <a href="clients/{{$client->id}}/detail" class="btn btn-danger">Voir</a>
-            <a href="clients/{{$client->id}}/modify" class="btn btn-danger">Modifier</a>
-            <a href="clients/{{$client->id}}/delete" class="btn btn-danger">Supprimer</a>
+            <a href="clients/{{$client->id}}/modify" class="btn btn-danger2">Modifier</a>
+            <a href="clients/{{$client->id}}/delete" class="btn btn-danger3">Supprimer</a>
         </th>
     </tr>
     @endforeach

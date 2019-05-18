@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-    <h2>Détail du compte</h2>
+    <h2>Détail du compte client</h2>
     <hr>
     
     <div class="account">
-        <h3>Infos peronnelles</h3>
+        <h3>Informations personnelles</h3>
         {{--{{ dump($user) }}--}}
         <ul>
             <li>
@@ -15,11 +15,7 @@
             <li>
                 <strong>Email:</strong>{{ $user[0]->email }}
             </li>
-
-{{--            <li>
-                <strong>Password:</strong>{{ $user[0]->password }}
-            </li>--}}
-
+            
             <li>
                 <strong>Role:</strong>{{ $user[0]->role }}
             </li>
@@ -28,7 +24,7 @@
         <hr>
 
         @if( $user[0]->role == 'client' )
-        <h3>Détail  du portefeuille</h3>
+        <h3>Détail  du portefeuille client</h3>
         {{--{{dump($wallet)}}--}}
         @endif
        

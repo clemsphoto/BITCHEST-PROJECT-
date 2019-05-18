@@ -1625,7 +1625,7 @@ h2,
 .h2 {
   font-size: 23px;
    color: #2f56e2;
-   
+
 }
 
 h3,
@@ -4368,7 +4368,18 @@ fieldset[disabled] .btn-warning.focus {
 
 .btn-danger {
   color: #fff;
-  background-color: #bf5329;
+  background-color: #9829B9;
+  border-color: #aa4a24;
+}
+.btn-danger2 {
+  color: #fff;
+  background-color:#871818;
+  border-color: #aa4a24;
+}
+
+.btn-danger3 {
+  color: #fff;
+  background-color:#817c0c;
   border-color: #aa4a24;
 }
 

@@ -75,7 +75,7 @@ class ClientController extends Controller
         $roles = ['admin','client'];
         $wallet = Wallet::find($user)   ;
 
-        return view('admin.client.show', compact('currentUser','user','roles','pwd','wallet'));
+        return view('admin.client.show', compact('currentUser','user','roles','wallet'));
     }
 
     /**

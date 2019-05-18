@@ -8,16 +8,16 @@
 
 
 
-  <h2 class="sub-header">Liste des Cryptos monnaies <span class="solde">Mon solde: <strong>{{$wallet->solde_euros}} €</strong></span></h2>
+  <h2 class="sub-header">Liste des Cryptos monnaies <span class="solde">Mon solde: <strong>€</strong></span></h2>
   <div class="table-responsive">
     <table class="table table-striped">
       <thead>
       <tr>
         <th>#</th>
         <th>Nom de la crypto monnaie</th>
-        <th>Valeur actuelle de la monnaie</th>
-        <th>Taux actuel de la monnaie</th>
-        <th>Progression</th>
+        <th>Valeur actuelle de la crypto monnaie</th>
+        <th>Taux actuel de la crypto monnaie</th>
+        <th>Progression des cours</th>
 
       </tr>
       </thead>

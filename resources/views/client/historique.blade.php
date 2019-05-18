@@ -7,16 +7,16 @@
     <h1 class="page-header">Historique CLIENT</h1>
 
 
-    <h2 class="sub-header">Liste des transactions<span class="solde">Mon solde: <strong>{{$wallet->solde_euros}} €</strong></span></h2>
+    <h2 class="sub-header">Liste des transactions<span class="solde">Mon solde: <strong>€</strong></span></h2>
     <div class="table-responsive">
     
             <table class="table table-striped">
                 <thead>
                 <tr>
                     
-                    <th>Nom de la crypto-monnaie</th>
+                    <th>Nom de la crypto monnaie</th>
                     <th>Quantité</th>
-                    <th>Valeur initiale de la monnaie</th>
+                    <th>Valeur initiale de la crypto monnaie</th>
                     <th>Valeur du lot</th>
                     <th>Date de la transaction</th>
                     <th>Statut transaction</th>

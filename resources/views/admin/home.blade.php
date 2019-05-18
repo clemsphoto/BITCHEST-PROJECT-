@@ -28,15 +28,15 @@
     </tbody>
   </table>
 
-  <h2 class="sub-header">Cryptos-monnaies</h2>
+  <h2 class="sub-header">Cryptos monnaies</h2>
   <div class="table-responsive">
     <table class="table table-striped">
       <thead>
       <tr>
         <th>#</th>
-        <th>Nom de la crypto-monnaie</th>
-        <th>Valeur actuelle de la monnaie</th>
-        <th>Taux actuel de la monnaie</th>
+        <th>Nom de la crypto monnaie</th>
+        <th>Valeur actuelle de la crypto monnaie</th>
+        <th>Taux actuel de la crypto monnaie</th>
 
       </tr>
       </thead>
