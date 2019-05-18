@@ -7,7 +7,7 @@
 
     @include('layouts.errors')
 
-    <h2 class="sub-header">Mon portefeuille <span class="solde">Mon solde: <strong>€</strong></span></h2>
+    <h2 class="sub-header">Mon portefeuille <span class="solde">Mon solde: <strong>{{$wallet->sold_euros}}€</strong></span></h2>
     <div class="table-responsive">
 
         <table class="table table-striped">
