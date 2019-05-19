@@ -11,6 +11,6 @@ class WalletTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Wallet::class, 10)->create();
+        factory(App\Wallet::class, 20)->create();
     }
 }

@@ -30,7 +30,7 @@ class SpendController extends Controller
         $spends = Spend::where('users_id', '=' , $currentUser->id)
         ->where('active', '=', 1)->get();        
         $wallet = Wallet::find($currentUser->id);
-        //$portefeuilleCryptos = Portefeuille::find($currentUser->id);
+        
         $cryptos = CryptoCurrency::all();
         $rates = Rate::all();
 
@@ -147,14 +147,14 @@ class SpendController extends Controller
         ->with('success','Votre vente a bien été effectuée. Merci !');
     }
 
-    public function buyCrypto(Crypto $crypto)
+    public function buyCrypto(CryptoCurrency $crypto)
     {
         $currentUser = Auth::user();
 
         return view('client.buy', compact('currentUser','crypto'));
     }
 
-    public function confirmBuyCrypto(Request $request, Crypto $crypto)
+    public function confirmBuyCrypto(Request $request, CryptoCurrency $crypto)
     {
         $today = Carbon::today();
         $currentUser = Auth::user();

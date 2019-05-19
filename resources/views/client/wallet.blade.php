@@ -26,6 +26,7 @@
             </tr>
             </thead>
             <tbody>
+            
             @foreach($spends as $spend)
 
                 <tr>

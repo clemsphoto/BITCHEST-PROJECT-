@@ -5713,7 +5713,7 @@ tbody.collapse.in {
     margin-right: -15px;
   }
 
-  .navbar-right ~ .navbar-right {s
+  .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
 }

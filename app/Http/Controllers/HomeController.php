@@ -49,7 +49,7 @@ class HomeController extends Controller
         $cryptos = CryptoCurrency::all();
         $rates = Rate::all();
         $wallet = Wallet::find($currentUser->id);
-        $today = Carbon::today();
+        $today = Carbon::today(); // permet de generer les dates 
         $progression = [];
         //dd($spends);
         for($i = 0; $i < count($cryptos) ; $i++ ){
@@ -64,7 +64,7 @@ class HomeController extends Controller
             array_push($progression, $valeur_taux);
         }
 
-        if($currentUser->role == 'admin'){
+        if($currentUser->role == 'Admin'){
             return view('admin.home', compact('currentUser', 'cryptos', 'allusers','spends', 'rates', 'allUser'));
         }else{
             return view('client.home', compact('currentUser','spends','wallet', 'cryptos', 'rates', 'progression'));

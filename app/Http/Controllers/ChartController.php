@@ -38,7 +38,7 @@ class ChartController extends Controller
         }
 
 
-        $cryptoValue = Crypto::find($valeurId);
+        $cryptoValue = CryptoCurrency::find($valeurId);
         $chart = Charts::create('line', 'highcharts')
             ->Title('graphique')
             ->Labels($date)
@@ -49,7 +49,7 @@ class ChartController extends Controller
 
     }
 
-    public function showCrypto(Crypto $crypto)
+    public function showCrypto(CryptoCurrency $crypto)
     {
         $currentUser = Auth::user();
         $wallet = Wallet::find($currentUser->id);
@@ -69,7 +69,7 @@ class ChartController extends Controller
         }
 
 
-        $cryptoValue = Crypto::find($valeurId);
+        $cryptoValue = CryptoCurrency::find($valeurId);
         $chart = Charts::create('line', 'highcharts')
             ->Title('graphique')
             ->Labels($date)
@@ -80,13 +80,13 @@ class ChartController extends Controller
 
     }
 
-    public function buyCrypto(Crypto $crypto)
+    public function buyCrypto(CryptoCurrency $crypto)
     {
         $currentUser = Auth::user();
         return view('client.buy',compact('currentUser','crypto'));
     }
 
-    public function confirmBuyCrypto(Request $request, Crypto $crypto)
+    public function confirmBuyCrypto(Request $request, CryptoCurrency $crypto)
     {
         $today = Carbon::today();
         $currentUser = Auth::user();
