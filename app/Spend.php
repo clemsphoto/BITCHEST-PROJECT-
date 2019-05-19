@@ -7,13 +7,15 @@ use Illuminate\Support\Facades\DB;
 
 class Spend extends Model
 {
+
+    /*************************************** MODEL des depenses des monnaies  *****************************/
     protected $fillable = [
         'crypto_currency_id',
         'users_id',
         'date_achat',
         'quantité',
         'valeur_euros',
-        'active',
+        'active', // pour activer les depenses 
         'rate_id'
     ];
 

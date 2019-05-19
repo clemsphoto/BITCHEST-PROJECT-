@@ -2,6 +2,11 @@
 
 @section('content')
 
+
+<!--  DETAIL DU COMPTE DE L'ADMIN -->
+
+
+
 <h1>Mon compte</h1>
 
 <hr>

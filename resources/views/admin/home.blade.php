@@ -2,6 +2,9 @@
 
 @section('content')
 
+<!-- VUE DU DASHBOARD DU COMPTE ADMIN -->
+
+
   @include('layouts.errors')
 
   <h1 class="page-header">Dashboard ADMIN</h1>
@@ -47,7 +50,7 @@
           <td>#</td>
           <td>{{ $crypto->name}}</td>
           <td>{{ $spends[$crypto->id -1]->valeur_euros}}€</td>
-          <td>{{ $crypto->getCoursActuel()->taux }}</td>
+          <td>{{ $crypto->getCoursActuel()->taux}}</td>
 
         </tr>
       @endforeach

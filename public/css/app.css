@@ -1437,7 +1437,7 @@ textarea {
 }
 
 a {
-  color: #3097D1;
+  color:#0a3f3a;
   text-decoration: none;
 }
 
@@ -8469,6 +8469,7 @@ body {
   .main {
     padding-right: 40px;
     padding-left: 40px;
+    background-color: #7272ff33;
   }
 }
 

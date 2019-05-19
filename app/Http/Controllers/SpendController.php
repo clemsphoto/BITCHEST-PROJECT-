@@ -13,6 +13,12 @@ use Carbon\Carbon;
 
 class SpendController extends Controller
 {
+
+/**************************** Controller pour afficher les depenses *************************/
+
+
+
+
     /**
      * Display a listing of the resource.
      *
@@ -117,6 +123,8 @@ class SpendController extends Controller
         $wallet = Wallet::find($spend->users_id); // a voir pour le S a la fin de user_id
         $wallet->solde_euros += $valeur_euros;
         $wallet->save();
+        
+
 
         $spend->active = 0;
         $spend->save();

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+
+<!--   PAGE pour pouvoir acheter une crypto monnaie par le client -->
+
+
 @section('content')
     @include('layouts.errors')
 
@@ -9,7 +13,7 @@
         </div>
     @endif
 
-    <h1 class="page-header">Acheter une crypto-monnaie</h1>
+    <h1 class="page-header">Acheter une crypto monnaie</h1>
     
     <p><strong>Crypto : </strong>{{$crypto->name}}</p>
 

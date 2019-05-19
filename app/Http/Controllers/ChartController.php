@@ -15,6 +15,8 @@ use Carbon\Carbon;
 class ChartController extends Controller
 {
 
+    /*******************************************  controler pour afficher les graphiques  ***********************************/
+
     public function index()
     {
 

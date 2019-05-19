@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+
+<!-- 
+DETAIL DU COMPTE de l'ADMIN
+-->
+
 @section('content')
     <h2>Détail du compte client</h2>
     <hr>

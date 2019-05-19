@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+<!-- on affiche la page "portefeuille" du client avec son solde en euros -->
     
     <h1 class="page-header">Dashboard CLIENT</h1>
 

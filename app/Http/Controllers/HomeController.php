@@ -2,7 +2,7 @@
 
 
 
-/*         On recupere la vue Home     */
+
 
 
 
@@ -19,6 +19,12 @@ use App\Spend;
 
 class HomeController extends Controller
 {
+
+    /****************************     Controler pour afficher la vue generale     On recupere la vue Home      ****************/
+
+
+
+
     /**
      * Create a new controller instance.
      *
@@ -42,7 +48,7 @@ class HomeController extends Controller
         $spends = Spend::all();
         $cryptos = CryptoCurrency::all();
         $rates = Rate::all();
-        $wallets = Wallet::find($currentUser->id);
+        $wallet = Wallet::find($currentUser->id);
         $today = Carbon::today();
         $progression = [];
         //dd($spends);

@@ -7,6 +7,11 @@ use DB;
 
 class CryptoCurrency extends Model
 {
+
+    /**********************************************  Model de la Crypto monnaies  ***************************************/
+    
+
+
     public $table = "crypto_currencies";
 
     protected $fillable = [

@@ -2,6 +2,10 @@
 
 @section('content')
 
+
+<!-- 
+    MODIFICATION DU COMMPTE 
+ --> 
 <h1>Modification du compte</h1>
 
 <hr>

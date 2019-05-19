@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+<!-- Page de la liste des monnaies de la page client 
+ -->
 
-    
+
 @include('layouts.errors')
     <h1 class="page-header">Dashboard CLIENT</h1>
 

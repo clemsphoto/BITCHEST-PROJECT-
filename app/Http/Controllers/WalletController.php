@@ -11,6 +11,9 @@ use Illuminate\Support\Facades\Auth;
 
 class PortefeuilleController extends Controller
 {
+
+
+    /*************************************************Controller pour afficher les portefeuilles  **********************/
     /**
      * Display a listing of the resource.
      *
@@ -24,6 +27,7 @@ class PortefeuilleController extends Controller
         ->get();
         
         $wallet = Wallet::find($currentUser->id); // a voir pour mettre un S a $wallet 
+        
         //$walletCryptos = Wallet::find($currentUser->id);
         $cryptos = CryptoCurrency::all();
         $rates = Rate::all();

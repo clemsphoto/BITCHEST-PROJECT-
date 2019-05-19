@@ -1,4 +1,10 @@
-<h2>MENU ADMIN</h2>
+
+
+<!--   Menu de l'administrateur -->
+
+
+
+<h2>ADMINISTRATEUR</h2>
 <ul class="nav nav-sidebar">
     <li class="active"><a href="/">Vue générale <span class="sr-only">(current)</span></a></li>
     <li><a href="/account">Gérer mes données personnelles</a></li>

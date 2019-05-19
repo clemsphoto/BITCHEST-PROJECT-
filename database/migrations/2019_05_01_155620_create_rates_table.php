@@ -17,7 +17,7 @@ class CreateRatesTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('crypto_currency_id');
             $table->date('date');
-            $table->decimal('taux', 6, 2);
+            $table->decimal('taux', 10, 2);
             $table->foreign('crypto_currency_id')->references('id')->on('crypto_currencies');
             $table->timestamps();
         });

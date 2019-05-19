@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rate extends Model
 {
+
+    /************************************  MODEL DE TAUX de la monnaie  ************************************************/
     public $table = "rates";
     protected $fillable = [
         'crypto_currency_id',

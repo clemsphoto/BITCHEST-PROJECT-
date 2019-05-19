@@ -2,6 +2,9 @@
 
 @section('content')
 
+
+<!--  DETAILS DES CRYPTO MONNAIE du dashboard ADMIN -->
+
     @include('layouts.errors')
 
     <h1 class="page-header">Dashboard ADMIN</h1>

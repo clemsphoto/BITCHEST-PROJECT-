@@ -2,6 +2,8 @@
 
 @section('content')
 
+<!--    Page des historiques des transactions du client  -->
+
     @include('layouts.errors')
 
     <h1 class="page-header">Historique CLIENT</h1>
@@ -14,7 +16,7 @@
                 <thead>
                 <tr>
                     
-                    <th>Nom de la crypto monnaie</th>
+                    <th>Nom de la crypto-monnaie</th>
                     <th>Quantité</th>
                     <th>Valeur initiale de la crypto monnaie</th>
                     <th>Valeur du lot</th>

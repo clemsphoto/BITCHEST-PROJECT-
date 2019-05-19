@@ -16,7 +16,7 @@ class CreateCryptoCurrenciesTable extends Migration
         Schema::create('crypto_currencies', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->decimal('valeur_init', 6, 2);
+            $table->decimal('valeur_init', 10, 2);
             $table->timestamps();
         });
     }

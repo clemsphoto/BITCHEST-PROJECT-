@@ -1,5 +1,11 @@
 @extends ('layouts.app')
 
+
+
+<!--  LISTE DES CLIENTS ( nom, role, action) --> 
+
+
+
 @section('content')
 
     <h2>Liste des Clients</h2>

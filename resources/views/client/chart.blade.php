@@ -2,10 +2,13 @@
 
 @section('content')
 
+
+<!-- Affichage du graphique  avec les depenses  pour le client -->
+
     <h1 class="page-header">Dashboard CLIENT</h1>
 
 
-    <h2 class="sub-header">Graphique <span class="solde">Mon solde: <strong>{{$wallet->solde_euros}} €</strong></span></h2>
+    <h2 class="sub-header">Graphique <span class="solde">Mon solde: <strong>{{$wallet->solde_euros}}€</strong></span></h2>
 
                     <div class="panel-heading" style="font-weight: bold; color: rgb(42, 136, 189);">Résumé des dépenses
                        <span class="listDeroulanteCrypto"> <select class="selectpicker ">

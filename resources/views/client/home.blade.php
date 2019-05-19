@@ -2,6 +2,7 @@
 
 @section('content')
 
+<!--     Page d'acceuil du client avec la liste des crypto monnaies--> 
 
   @include('layouts.errors')
   <h1 class="page-header">Dashboard CLIENT</h1>

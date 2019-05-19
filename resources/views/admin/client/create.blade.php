@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+
+ <!-- CREATION D'UN CLIENT  -->
+
+ 
 @section('content')
     <h2>Création d'un client</h2>
     <hr>

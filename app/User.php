@@ -7,6 +7,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
+
+    /*************************************** MODEL POUR LES UTILISATEUR  ******************************/
+
+
+
     use Notifiable;
 
     /**

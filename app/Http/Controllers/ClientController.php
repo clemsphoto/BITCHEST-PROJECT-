@@ -10,6 +10,10 @@ use Illuminate\Support\Facades\Hash;
 
 class ClientController extends Controller
 {
+
+    /*******************************************     Controler pour afficher les Clients ***********************/
+
+
     /**
      * Display a listing of the resource.
      *
