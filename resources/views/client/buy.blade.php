@@ -15,7 +15,7 @@
 
     <h1 class="page-header">Acheter une crypto monnaie</h1>
     
-    <p><strong>Crypto : </strong>{{$crypto->name}}</p>
+    <p><strong>Crypto monnaie: </strong>{{$crypto->name}}</p>
 
     <form action="/chart/buy/{{$crypto->id}}" method="POST">
     {{csrf_field()}}

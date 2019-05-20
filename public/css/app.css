@@ -1618,16 +1618,15 @@ h6 .small,
 
 h1,
 .h1 {
-  font-size: 23px;s
+  font-size: 23px;
 }
 
 h2,
 .h2 {
   font-size: 23px;
-   color: #2f56e2;
-
+   color: rgb(26, 28, 173);
 }
-
+ 
 h3,
 .h3 {
   font-size: 24px;

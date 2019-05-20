@@ -48,7 +48,7 @@
 
         <tr>
           <td>#</td>
-          <td>{{ $crypto->name}}</td>
+          <td><img src="/images/{{ $crypto->name}}.png"></td>
           <td>{{ $spends[$crypto->id -1]->valeur_euros}}€</td>
           <td>{{ $crypto->getCoursActuel()->taux}}</td>
 

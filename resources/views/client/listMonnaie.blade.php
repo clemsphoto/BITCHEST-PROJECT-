@@ -15,7 +15,7 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>#</th>
+                <th><img src="public/images/bitcoin-cash.png"></th>
                 <th>Nom de la crypto monnaie</th>
                 <th>Valeur actuelle de la crypto-monnaie</th>
                 <th>Taux actuel de la crypto-monnaie</th>
@@ -29,7 +29,7 @@
 
                     <tr>
                     <td>#</td>
-                    <td>{{ $crypto->name}}</td>
+                    <td><img src="/images/{{ $crypto->name}}.png"></td>
                     <td>{{ $spends[$crypto->id -1]->valeur_euros}}€</td>
                     <td>{{ $crypto->getCoursActuel()->taux }}</td>
                     <td>
