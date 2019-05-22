@@ -27,7 +27,7 @@ class Spend extends Model
     public function crypto_currencies()
     {
 
-        return $this->belongsTo(CryptoCurrency::class);
+        return $this->belongsTo(CryptoCurrency::class,'crypto_currency_id'); // champs de la Table spends
     }
 
     public function rates()

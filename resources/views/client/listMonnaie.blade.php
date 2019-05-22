@@ -15,7 +15,7 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th><img src="public/images/bitcoin-cash.png"></th>
+                <th>#</th>
                 <th>Nom de la crypto monnaie</th>
                 <th>Valeur actuelle de la crypto-monnaie</th>
                 <th>Taux actuel de la crypto-monnaie</th>
