@@ -1,6 +1,6 @@
 
 
-<!--   Menu de l'administrateur -->
+<!--   Menu de l'administrateur affiché -->
 
 
 <h2>ADMINISTRATEUR</h2>

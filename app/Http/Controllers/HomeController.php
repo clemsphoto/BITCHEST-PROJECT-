@@ -64,8 +64,8 @@ class HomeController extends Controller
             array_push($progression, $valeur_taux);
         }
 
-        if($currentUser->role == 'Admin'){
-            return view('admin.home', compact('currentUser', 'cryptos', 'allusers','spends', 'rates', 'allUser'));
+        if($currentUser->role == 'admin'){
+            return view('admin.home', compact('currentUser', 'cryptos', 'allusers','spends', 'rates'));
         }else{
             return view('client.home', compact('currentUser','spends','wallet', 'cryptos', 'rates', 'progression'));
         }

@@ -23,14 +23,14 @@ class CreateUsersTable extends Migration
         $table->string('name',100); //Varchar 100 -> Création d'un champ texte 'name' de 100 caractères
         $table->string('email',100)->unique();  // varchar 100 ->email
         $table->string('password',100);
-        $table->enum('role',['Admin', 'Client']); // profile d'un utilisateur
+        $table->enum('role',['admin', 'client']); // profile d'un utilisateur
         $table->rememberToken(); // texte de 100 caracteres qui servira pour l'authentification 
         $table->timestamps(); // timestamps Permet la creation de é colonne  created_at et updated_at TIMESTAMP equivalent columns.
         });
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse the migrations.y
      *
      * @return void
      */
