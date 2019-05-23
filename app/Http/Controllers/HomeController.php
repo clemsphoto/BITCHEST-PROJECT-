@@ -51,7 +51,7 @@ class HomeController extends Controller
         $wallet = Wallet::find($currentUser->id);
         $today = Carbon::today(); // permet de generer les dates 
         $progression = [];
-        //dd($spends);
+        
         for($i = 0; $i < count($cryptos) ; $i++ ){
 
             $current_cours = Rate::where('crypto_currency_id', '=', $cryptos[$i]->id)

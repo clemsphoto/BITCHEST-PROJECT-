@@ -129,7 +129,7 @@ class SpendController extends Controller
         $spend->active = 0;
         $spend->save();
 
-        //Spend::destroy($spend->id);
+        
         return back()->with('successMessage','Votre vente a bien été effectuée. Merci !');
     }
     

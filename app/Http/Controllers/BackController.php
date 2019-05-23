@@ -67,7 +67,7 @@ class BackController extends Controller
     public function update(Request $request, User $user)
     {
         //dd($request);
-        request()->validate([
+        request()->validate([  // la validation dans les controller
             'name' => 'required',
             'email' => 'required',
             'password' => 'required',

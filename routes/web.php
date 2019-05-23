@@ -11,6 +11,8 @@
 |
 */
 
+/* Pour la route il suffit de désigner le nom du contrôleur et le nom de la méthode séparés par @. */
+
 Route::get('/', 'HomeController@index')->name('home')->middleware('auth');
 
 
