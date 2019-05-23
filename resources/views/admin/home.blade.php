@@ -8,7 +8,7 @@
   @include('layouts.errors')
 
   <h1 class="page-header">Dashboard ADMIN</h1>
-  <h2>Liste Clients</h2>
+  <h2>Liste des Clients</h2>
 
   <hr>
 

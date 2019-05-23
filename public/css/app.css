@@ -1420,7 +1420,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: -webkit-pictograph;
   font-size: 14px;
   line-height: 1.6;
   color: #636b6f;
@@ -3365,7 +3365,7 @@ output {
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 50%;
   height: 36px;
   padding: 6px 12px;
   font-size: 14px;
